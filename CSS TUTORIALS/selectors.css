@@ -19,3 +19,28 @@ Attribute selectors (select elements based on an attribute or attribute value)
  #para1 {
     color: aliceblue;
  }
+
+ /* The CSS class Selector */
+ .test {
+    color: aliceblue;
+ }
+
+ /* atau bisa seperti berikut agar lebih spesifik */
+
+ p.test {
+    background-color: aliceblue;
+ }
+
+ /* The CSS Universal Selector */
+
+ * {
+    text-align: center;
+    color: antiquewhite;
+ }
+
+ /* The CSS Grouping Selector */
+
+ h1,h2,p {
+     text-align: center;
+     color: red;
+ }
