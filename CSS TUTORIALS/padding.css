@@ -1,2 +1,25 @@
 /* Padding - Individual Sides */
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
 
+/* Padding - Shorthand Property */
+
+div {
+    padding: 25px 50px 75px 100px;
+}
+
+/* Padding and Element Width */
+div {
+    width: 300px;
+    padding: 25px;
+}
+
+div {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
