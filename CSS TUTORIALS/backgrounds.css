@@ -1,0 +1,69 @@
+/* CSS background properties: 
+background-color 
+background-image 
+background-repeat 
+background-attachment 
+background-position 
+background (shorthand property) */
+
+/* CSS background-color */
+
+body {
+    background-color: antiquewhite;
+    /* Opacity / Transparency
+    maksimal 1 */
+    opacity: 0.6;
+    /* Transparency using RGBA */
+    background: rgba(0, 128, 0, 0.3)
+    /* Green background with 30% opacity */
+}
+
+/* CSS background-image */
+
+body {
+    background-image: url("paper.gif");
+}
+
+p {
+    background-image: url("paper.gif");
+}
+
+/* CSS background-repeat */
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+
+/* CSS background-repeat: no-repeat */
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+}
+
+/* CSS background-position */
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+/* CSS background-attachment */
+/* gunanya agar gambar jika di scroll tidak bergerak */
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+/* gambar bergerak ketika di scroll */
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+/* CSS background - Shorthand property */
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}

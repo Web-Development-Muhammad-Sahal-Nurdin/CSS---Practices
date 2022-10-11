@@ -1,0 +1,51 @@
+/* CSS Border Width */
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: transparent;
+}
+
+p.four {
+    border-style: dotted;
+
+    /* Specific Side Widths */
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+
+    /* CSS Border Color */ 
+    /* Bisa tranparent juga */
+
+    border-color: aliceblue;
+
+    /* CSS Border Sides */
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+/* CSS Shorthand Border Property */
+p {
+    border: 5px solid red;
+    border-bottom: ;
+    border-top: ;
+    border-right: ;
+    border-left: ;
+}
+
+/* CSS Rounded Borders */
+p {
+    border: 2px solid red;
+    /* make border radius */
+    border-radius: 5px;
+}
