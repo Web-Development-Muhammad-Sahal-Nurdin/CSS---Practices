@@ -1,0 +1,39 @@
+/* Margin - Individual Sides */
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+/* Margin - Shorthand Property */
+p {
+    margin: 25px 50px 75px 100px;
+}   
+
+
+/* The auto Value */
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* The inherit Value */
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+
+p.ex1 {
+    margin-left: inherit;
+}   
+
+/* Margin Collapse */
+h1 {
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+}
