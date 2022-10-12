@@ -1,0 +1,123 @@
+/* CSS Outline */
+
+/* CSS Outline Style */
+/* 
+dotted - Defines a dotted outline 
+dashed - Defines a dashed outline 
+solid - Defines a solid outline 
+double - Defines a double outline 
+groove - Defines a 3D grooved outline 
+ridge - Defines a 3D ridged outline 
+inset - Defines a 3D inset outline 
+outset - Defines a 3D outset outline none - Defines no outline hidden - Defines a hidden outline */
+
+
+p.dotted {
+    outline-style: dotted;
+}
+
+p.dashed {
+    outline-style: dashed;
+}
+
+p.solid {
+    outline-style: solid;
+}
+
+p.double {
+    outline-style: double;
+}
+
+p.groove {
+    outline-style: groove;
+}
+
+p.ridge {
+    outline-style: ridge;
+}
+
+p.inset {
+    outline-style: inset;
+}
+
+p.outset {
+    outline-style: outset;
+}
+
+/* CSS Outline Width */
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+/* CSS Outline Color */
+
+p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+
+p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+}
+
+p.ex3 {
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
+}
+
+
+/* CSS Outline - Shorthand property */
+p.ex1 {
+    outline: dashed;
+}
+
+p.ex2 {
+    outline: dotted red;
+}
+
+p.ex3 {
+    outline: 5px solid yellow;
+}
+
+p.ex4 {
+    outline: thick ridge pink;
+}
+
+
+/* CSS Outline Offset */
+
+p {
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
